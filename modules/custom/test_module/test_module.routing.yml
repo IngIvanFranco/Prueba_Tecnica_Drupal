@@ -1,0 +1,7 @@
+test_module.routing:
+ path: '/fomr'
+   defaults:
+   _title: 'Formulario de contacto'
+   _form:  '\Drupal\test_module\Form\TestForm'
+   requirements:
+    _permission: 'access content'
